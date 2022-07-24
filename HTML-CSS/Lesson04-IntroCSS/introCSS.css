@@ -1,0 +1,7 @@
+#Element1 {
+    color: red;
+}
+
+.groceries #Element1 {
+    font-size: 2rem;
+}
