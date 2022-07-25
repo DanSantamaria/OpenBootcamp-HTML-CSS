@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+   display: flex; 
+}
+.hero img {
+    width: 60vh;
+    height: 100vh;
+    object-fit: cover;
+}
+.header {
+    width: 100hv;
+}
+.header h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 50px;
+    color: rgb(48, 159, 173);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 5px;
+    height: 80vh;
+    align-content: center;
+}
+#dogImage {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+#dogImage:hover {
+    opacity: 0.5;
+    cursor: pointer
+}

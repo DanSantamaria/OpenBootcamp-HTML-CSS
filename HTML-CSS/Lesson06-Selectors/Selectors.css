@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    background-color: darkcyan;
+    color: rgb(138, 216, 252);
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(51, 179, 136);
+}
+
+button::before {
+    content: "HOVER OVER";
+}
+
+button:hover::before {
+    content: "";
+}
+
+button:hover::after {
+    content: "GREAT!";
+}
