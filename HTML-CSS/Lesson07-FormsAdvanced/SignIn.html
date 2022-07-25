@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Clone</title>
+    <link rel="stylesheet" href="SignIn.css">
+</head>
+<body>
+    <div class="container">
+        <img id="logo" src="Images/dribbble-seeklogo.com.svg" alt="Dribbble logo" class="logo">
+        <h2>Sign up to Dribbble</h2>
+        <div class="buttons">
+            <button class="googleBtn">
+                <picture>
+                    <img src="Images/googleLogo.svg" alt="Google logo" width="60%">
+                </picture>
+                <span>Register with Google</span>
+            </button>
+            <button class="twitterBtn">
+                <picture>
+                    <img src="Images/twitterLogo.png" alt="twitter logo" width="40%">
+                </picture>
+            </button>
+        </div>
+        <div class="divider">
+            <hr>Or<hr>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="loginField">
+                    <label for="name">
+                        <span>Name</span>
+                        <input class="inputForm" type="text" id="name" name="name">
+                    </label>
+                    <label for="userName">
+                        <span>Username</span>
+                        <input class="inputForm" type="userName" id="userName" name="userName">
+                    </label>
+                </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input class="inputForm" type="email" id="email" name="email">
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input class="inputForm" type="password" id="password" name="password" placeholder="+6 characters">
+                </label>
+                <label for="checkbox" class="checkboxLabel">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="checkmark">Creating an account means you are okay with our <a href="">Terms of Service</a>, <a href=""> Privacy Policy</a>, and our default <a href=""> Notification Settings</a>.</span>
+                </label>
+                <button type="submit">Create Account</button>
+                <p #signin>Already a member? <a href="">Sign In</a></p>
+            </form>
+        </div>  
+    </div>
+</body>
+</html>
