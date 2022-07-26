@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        <img id="icon" src="Images/Sun.png" alt="icon">
         <img id="logo" src="Images/dribbble-seeklogo.com.svg" alt="Dribbble logo" class="logo">
         <h2>Sign up to Dribbble</h2>
         <div class="buttons">
@@ -52,9 +53,21 @@
                     <span class="checkmark">Creating an account means you are okay with our <a href="">Terms of Service</a>, <a href=""> Privacy Policy</a>, and our default <a href=""> Notification Settings</a>.</span>
                 </label>
                 <button type="submit">Create Account</button>
-                <p #signin>Already a member? <a href="">Sign In</a></p>
+                <p id="signin">Already a member? <a href="">Sign In</a> <br><span>(created for practice excercise)</span></p>
             </form>
         </div>  
     </div>
+
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("darkTheme");
+            if(document.body.classList.contains("darkTheme")){
+                icon.src = "Images/Moon.png", logo.src = "Images/dribbbleWhite.png";
+            } else {
+                icon.src = "Images/Sun.png", logo.src = "Images/dribbble-seeklogo.com.svg";
+            }
+        }
+    </script>
 </body>
 </html>
