@@ -1,0 +1,15 @@
+.col-sm {
+    background-color: aqua;
+}
+
+.col-md {
+    background-color: rgb(3, 221, 221);
+}
+
+.col-lg {
+    background-color: rgb(1, 182, 182);
+}
+
+.col-xl {
+    background-color: rgb(1, 100, 100);
+}
